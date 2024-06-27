@@ -22,6 +22,23 @@ const config: Config = {
         'main-volcano': '#fa541c',
         'main-cyan': '#08979c',
         'main-yellow': '#fadb14'
+      },
+      fontFamily: {
+        lexend: ['Lexend', 'sans-serif'],
+        'times-new-roman': ['Times New Roman', 'serif']
+      },
+      keyframes: {
+        'animated-gradient': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' }
+        }
+      },
+      backgroundSize: {
+        '400%': '400%'
+      },
+      animation: {
+        gradient: 'animated-gradient 20s ease infinite alternate'
       }
     }
   },

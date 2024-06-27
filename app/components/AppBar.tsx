@@ -3,7 +3,7 @@ import React from 'react'
 
 const AppBar = () => {
   return (
-    <header className='bg-[#dedbd2'>
+    <header className='bg-[#dedbd2]'>
       <SignInButton />
     </header>
   )
